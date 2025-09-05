@@ -1,0 +1,41 @@
+.background_banner {
+    background-image: url(../../Images/banner-2.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 101.3%;
+    height: 70vh;
+}
+
+.background_banner .Title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Title h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: $snow-White;
+}
+
+.Title p {
+    width: 50%;
+    display: flex;
+    text-align: justify;
+    color: $snow-White;
+}
+
+.Title .btn-xs{
+    width: 120px;
+    background-color: $snow-White;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-xs:hover{
+    transform: translateY(-2px);
+    
+}
